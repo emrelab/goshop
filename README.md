@@ -65,7 +65,6 @@ The final directory structure and commands will evolve during M0–M7. **Do not 
 3. Pick the next unfinished Issue (start with [#1](https://github.com/emrelab/goshop/issues/1) if no progress is verified).
 4. Follow that Issue's checklist and acceptance criteria. Verify locally, commit, push and update the Issue once complete.
 
-A reliable `go run`/Docker startup guide will be added once a runnable entry point has been committed; **there is no claim of an already deployed shop**.
 
 ## Project tracking and handoff
 
@@ -76,3 +75,9 @@ A reliable `go run`/Docker startup guide will be added once a runnable entry poi
 - [Lesson Coverage Matrix](docs/COURSE_COVERAGE.md)
 
 If you are an AI coding agent or a new contributor, read **Project Context first**, then inspect the **actual Git state and open Issues** before proposing changes.
+
+## Running the application
+
+```bash
+go run ./cmd/goshop
+```
